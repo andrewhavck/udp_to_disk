@@ -1,0 +1,10 @@
+[package]
+name = "udp_to_disk"
+version = "0.1.0"
+authors = ["Andrew Hauck <andrew.hauck@distilnetworks.com>"]
+
+[dependencies]
+futures = "0.1.7"
+tokio-core = "0.1.2"
+tokio-proto = { git = "https://github.com/tokio-rs/tokio-proto" }
+tokio-service = { git = "https://github.com/tokio-rs/tokio-service" }
